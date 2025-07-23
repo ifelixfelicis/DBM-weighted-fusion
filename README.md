@@ -5,15 +5,18 @@ This repository contains Python scripts for weighted fusion of multi-source Digi
 ---
 
 ## 📁 Repository Structure
+
+```
 DBM-weighted-fusion/
-├── fusion/
-│ ├── 2_DBM_fusion.py # Two-DBM fusion script
-│ └── 6_DBM_fusion.py # Six-DBM fusion script
-├── data/
-│ └── README_data.md # Description of DBM sources (not data itself)
-├── requirements.txt # Python dependencies
-├── LICENSE # MIT License
-└── README.md # Project introduction
+├── fusion/                    # Python scripts for DBM fusion
+│   ├── 2_DBM_fusion.py        # Two-DBM fusion script
+│   └── 6_DBM_fusion.py        # Six-DBM fusion script
+├── data/                      # Directory for dataset descriptions (not data itself)
+│   └── README_data.md         # Descriptions of DBM sources and access links
+├── requirements.txt           # Python dependencies
+├── LICENSE                    # MIT License file
+└── README.md                  # Project documentation (this file)
+```
 
 ---
 
@@ -36,23 +39,35 @@ The six DBMs include:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 2. Run the script
 
+```bash
 # For two-DBM fusion
 python fusion/2_DBM_fusion.py
 
 # For six-DBM fusion
 python fusion/6_DBM_fusion.py
+```
 
-Note: Modify the data paths in the script before running.
+> 🔧 **Note:** Modify the data paths in the scripts before running.
 
-📄 Data Description
-No raw DBM data are provided in this repository due to third-party data source policies. For descriptions and download links of the six DBMs used in the fusion experiments, please refer to data/README_data.md.
+---
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 📄 Data Description
 
-📬 Contact
-For questions or collaborations, feel free to contact:
+No raw DBM data are included in this repository because the data sources are third-party global DBM products. For descriptions and download links, please refer to [data/README_data.md](data/README_data.md).
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
+For questions or collaborations, feel free to contact:  
 📧 w15684143509@gmail.com
