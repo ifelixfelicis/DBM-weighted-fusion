@@ -16,7 +16,7 @@ DBM-weighted-fusion/
 ├── data/                      # Directory for dataset descriptions (not data itself)
 │   └── README_data.md         # Descriptions of DBM sources and access links
 ├── requirements.txt           # Python dependencies
-├── LICENSE                    # CC-BY License file
+├── LICENSE                    # CC0 1.0 License file
 └── README.md                  # Project documentation (this file)
 ```
 
@@ -65,7 +65,20 @@ No raw DBM data are included in this repository because the data sources are thi
 
 ## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This dataset and code are licensed under the Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication.  
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.  
+
+Full license text: [https://creativecommons.org/publicdomain/zero/1.0/](https://creativecommons.org/publicdomain/zero/1.0/)
+
+---
+
+## ▶️ Citation
+If you use this dataset or code, please cite as follows:
+
+Wang, X., Dai, W., Wang, B., & Liu, Y. (2025).  
+DBM-weighted-fusion: Multi-source bathymetric model fusion for shallow-water topography.  
+GitHub repository: [https://github.com/ifelixfelicis/DBM-weighted-fusion](https://github.com/ifelixfelicis/DBM-weighted-fusion).  
+Licensed under CC0 1.0 Universal.
 
 ---
 
