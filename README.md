@@ -2,6 +2,8 @@
 
 This repository contains Python scripts for weighted fusion of multi-source Digital Bathymetric Models (DBMs). It includes two core fusion methods: a two-DBM fusion approach and a six-DBM fusion approach, which are implemented in the `fusion/` directory.
 
+> Wang, X., Dai, W., Wang, B., & Liu, Y. (2025). Improving seafloor topography modelling in shallow-water areas by integrating nautical chart and six global digital bathymetric model products.
+
 ---
 
 ## 📁 Repository Structure
@@ -14,7 +16,7 @@ DBM-weighted-fusion/
 ├── data/                      # Directory for dataset descriptions (not data itself)
 │   └── README_data.md         # Descriptions of DBM sources and access links
 ├── requirements.txt           # Python dependencies
-├── LICENSE                    # MIT License file
+├── LICENSE                    # CC-BY License file
 └── README.md                  # Project documentation (this file)
 ```
 
